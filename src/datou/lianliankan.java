@@ -212,16 +212,10 @@ public class lianliankan extends JFrame {
 	}
 
 	public boolean samefou(int a, int b) {
-
 		String sa, sb;
 		sa = jb[a].getIcon().toString();
 		sb = jb[b].getIcon().toString();
-
-		if (sa.equals(sb)) {
-			return true;
-		} else
-			return false;
-
+		return sa.equals(sb);
 	}
 
 	public boolean xiaofou(int a, int b) {
